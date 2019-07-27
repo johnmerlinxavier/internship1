@@ -1,0 +1,17 @@
+git init
+
+git add .
+
+git config --global user.name johnmerlinxavier"
+
+git commit -m "first commit"
+
+git remote add origin git@github.com:johnmerlinxavier/internship1.git
+
+git remote set-url origin https://github.com/johnmerlinxavier/internship1.git
+
+git push -f origin master
+
+git status
+git pull
+git clone https://github.com/johnmerlinxavier/internship1.git
